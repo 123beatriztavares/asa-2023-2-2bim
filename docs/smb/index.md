@@ -31,7 +31,8 @@ Criei duas pastas Norte, Sul.
 
 ### 2 grupos para dois de meus sobrenomes!
 
-[Title](https://im.ge/i/Captura-de-Tela-9.xnVxtc)
+
+
 
 1. barbosa
 2. tavares
