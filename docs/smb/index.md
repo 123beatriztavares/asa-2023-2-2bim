@@ -1,18 +1,18 @@
 # SMB
 
 ## Instalação
-apk add samba
+>apk add samba
 
-. Foi ultilizado o comando: samba-tool domain provision -use-rcf2307 - interactive, isso para poder levantar o domínio (noronha).
+. Foi ultilizado o comando:(samba-tool domain provision -use-rcf2307 - interactive), isso para poder levantar o domínio (noronha).
 
 . Crio as pastas das familias que vou compartilhar.
 
-Pastas /srv/samba/(tavares, barbosa)
+>Pastas /srv/samba/(tavares, barbosa)
 
 . Em seguida é preciso entrar no arquivo (smb.conf), que se encontra na pasta (/etc/samba/), dentro desse arquivo fiz as demais configurações.
 
 ## Configuração
-/etc/samba/smb.conf
+>nano /etc/samba/smb.conf
 
 . Fazer as demais configurações!
 
