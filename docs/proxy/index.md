@@ -1,5 +1,9 @@
 # PROXY
 
+Um servidor proxy é um intermediário entre o seu dispositivo (como um computador ou smartphone) e a Internet. Ele atua como um gateway entre o cliente (você) e o servidor, encaminhando suas solicitações e recebendo as respostas. 
+
+
+
 ## Instalação
 >sudo apt update (atualizar)
 
@@ -16,7 +20,6 @@
 
 > access.log
 
-[Title](https://im.ge/i/Captura-de-Tela-1-Edited.xBEq54)
 
 - Por padrão o squid nega todo o acesso quando é instalado, para desabilitar vá em:
 > nano /etc/squid/squid.conf
@@ -33,23 +36,31 @@ Será adicionado nossa acl, o padrão de construção é:
 > EX: acl exemplo dst www.facebook.com
 
 Arquivo parão!
-[Title](https://im.ge/i/Captura-de-Tela-2.xBbYpX)
+[![Captura de Tela (13)](https://i.im.ge/2024/01/03/3o9Gpm.Captura-de-Tela-13.png)](https://im.ge/i/3o9Gpm)
+
 
 ### Tipos de permissão:
 
 > deny: nega o acesso
-allow: permite o acesso
+
+>allow: permite o acesso
 
 ### Fotos das acl criadas:
+[![Captura de Tela (14)](https://i.im.ge/2024/01/03/3oxSZx.Captura-de-Tela-14.png)](https://im.ge/i/3oxSZx)
+
+[![Captura de Tela (15)](https://i.im.ge/2024/01/03/3o30J0.Captura-de-Tela-15.png)](https://im.ge/i/3o30J0)
+
+[![Captura de Tela (16)](https://i.im.ge/2024/01/03/3oYgy0.Captura-de-Tela-16.png)](https://im.ge/i/3oYgy0)
+
+[![Captura de Tela (17)](https://i.im.ge/2024/01/03/3oYZmL.Captura-de-Tela-17.png)](https://im.ge/i/3oYZmL)
+
+[![Captura de Tela (18)](https://i.im.ge/2024/01/03/3oYvaS.Captura-de-Tela-18.png)](https://im.ge/i/3oYvaS)
 
 
-[Title](https://im.ge/i/Captura-de-Tela-7.xBWsRh)
 
-[Title](https://im.ge/i/Captura-de-Tela-8.xBWzO9)
 
-[Title](https://im.ge/i/Captura-de-Tela-9.xBWpW8)
 
-[Title](https://im.ge/i/Captura-de-Tela-10.xBWBBD)
+
 
 
 
@@ -72,4 +83,4 @@ Passo a Passo  do teste!
 (O navegador fica de sua preferência)
 
 ### Logs!
-> tail -f /var/ç/log/squid/access.log 
+> tail -f /var/log/squid/access.log 

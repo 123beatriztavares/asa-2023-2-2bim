@@ -1,5 +1,9 @@
 # DHCP
 
+O DHCP, sigla para Dynamic Host Configuration Protocol (Protocolo de Configuração Dinâmica de Host), é um protocolo de rede usado para atribuir automaticamente endereços IP e outras informações de configuração de rede a dispositivos em uma rede. O objetivo principal do DHCP é simplificar a administração da configuração de rede.
+
+
+
 ## Instalação
 
 >sudo apt update (atualizar)

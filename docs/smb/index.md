@@ -1,5 +1,8 @@
 # SMB
 
+O Samba é um software de código aberto que permite a interoperabilidade entre sistemas Unix/Linux e Windows. Ele atua como um servidor que pode comunicar-se com protocolos de rede da Microsoft, fornecendo funcionalidades como compartilhamento de arquivos e impressoras, autenticação e autorização de usuários, entre outros serviços. 
+
+
 ## Instalação
 >apk add samba
 
@@ -16,7 +19,8 @@
 
 . Fazer as demais configurações!
 
-[Title](https://im.ge/i/Captura-de-Tela-6.xnW5PG)
+[![Screenshot_2023-12-04_21-07-12](https://i.im.ge/2024/01/03/3MclFG.Screenshot-2023-12-04-21-07-12.png)](https://im.ge/i/3MclFG)
+
  
 Isso tudo dentro da máquina xarope, em seguida foi iniciado a máquina windows com a conta admin e configurei a placa de rede local 1 que é rede interna.
 
@@ -24,9 +28,9 @@ Isso tudo dentro da máquina xarope, em seguida foi iniciado a máquina windows 
  
 Configurei a placa com o ip da máquina linux,entrei na ferramenta usuários e pcs do AD, e criei as famílias e grupos pelo Activedirectory.
 
-[Title](https://im.ge/i/Captura-de-Tela-8.xnK4nT)
+[![Screenshot_2023-12-04_21-03-34](https://i.im.ge/2024/01/03/3Mg1KP.Screenshot-2023-12-04-21-03-34.png)](https://im.ge/i/3Mg1KP)
  
-Criei duas pastas Norte, Sul.
+>Criei duas pastas Norte, Sul.
 
 
 ### 2 grupos para dois de meus sobrenomes!
@@ -38,7 +42,7 @@ Criei duas pastas Norte, Sul.
 2. tavares
 
 ### 4 usuários, dois para cada um dos sobrenomes!
-[Title](https://im.ge/i/Captura-de-Tela-9.xnfhXa)
+[![usuários](https://i.im.ge/2024/01/03/3Mg308.usuarios.png)](https://im.ge/i/3Mg308)
 
 
 1. Bianca Tavares
@@ -48,7 +52,7 @@ Criei duas pastas Norte, Sul.
 
 ### 3 Compartilhar duas pastas de seus sobrenomes!
 
-[Title](https://im.ge/i/Captura-de-Tela-10.xnkNEW) 
+[![Screenshot_2023-12-04_21-00-56](https://i.im.ge/2024/01/03/3MgvMm.Screenshot-2023-12-04-21-00-56.png)](https://im.ge/i/3MgvMm)
 
 1. barbosa
 2. tavares
@@ -60,9 +64,7 @@ Incluir o(s) nome(s) e o conteúdo do(s) arquivo(s) de configuração.
 3. Compartilhar duas pastas com dois de seus sobrenome, compartilhado para o grupo com o sobrenome correspondente.
 
 ## Teste
+[![Screenshot_2023-12-04_21-01-59](https://i.im.ge/2024/01/03/3MgGdT.Screenshot-2023-12-04-21-01-59.png)](https://im.ge/i/3MgGdT)
 
 
-[Title](https://im.ge/i/Captura-de-Tela-12.xnzmFK)
-
-
-Quando acessar um grupo a pasta estará vazia e a outra pasta vai pedir senha.
+. Quando acessar um grupo a pasta estará vazia e a outra pasta vai pedir senha.
